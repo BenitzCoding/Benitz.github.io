@@ -18,6 +18,8 @@
 	src: url(./assets/Fonts/Montserrat-Thin.ttf);
 }
 
+
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -220,6 +222,9 @@ body {
 	color: aqua;
 	font-family: "Montserrat Bold";
 	font-size: 60px;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
 }
 
 .numix {
